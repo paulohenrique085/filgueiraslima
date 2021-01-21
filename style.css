@@ -37,7 +37,8 @@ body{
 #area-postagens{
     width: 660px;
     float: left;
-    
+    border-radius: 200px;
+   
 
 }
 #area-lateral{
@@ -56,11 +57,13 @@ body{
 /*formatação geral*/
 h1{
     color: white;
-    font-size: 35px;
+    font-size: 80px;
 }
 h2{
     color: white;
     background: linear-gradient(45deg,#8e2de2,#4a00a0);
+    border-radius: 15px;
+    padding: 8px;
 }
 .data-post{
     font-size: 10px;
@@ -102,6 +105,7 @@ a{
     padding: 20px;
     margin-bottom: 70px;
     background:white;
+    border-radius: 50px;
 
 }
 
